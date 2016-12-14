@@ -1,0 +1,29 @@
+{
+    "ndk_module_path" :[
+        "${COCOS_X_ROOT}/cocos2d-x-3.13.1",
+        "${COCOS_X_ROOT}/cocos2d-x-3.13.1/cocos",
+        "${COCOS_X_ROOT}/cocos2d-x-3.13.1/external"
+    ],
+    "copy_resources": [
+        {
+            "from": "../../../src",
+            "to": "src"
+        },
+        {
+            "from": "../../../res",
+            "to": "res"
+        },
+        {
+            "from": "../../../main.js",
+            "to": ""
+        },
+        {
+            "from": "../../../project.json",
+            "to": ""
+        },
+        {
+            "from": "../../../script",
+            "to": "script"
+        }
+    ]
+}
