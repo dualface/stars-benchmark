@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8275A2AA-C858-0D59-2C10-5119B3B50E7B}") = "unity-stars", "Assembly-CSharp.csproj", "{7FCB6B65-E3B3-EC15-013C-95909325D9C0}"
+EndProject
+Project("{8275A2AA-C858-0D59-2C10-5119B3B50E7B}") = "unity-stars", "Assembly-CSharp-Editor.csproj", "{9A214185-98B8-8F38-FA27-2A2A876D630A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FCB6B65-E3B3-EC15-013C-95909325D9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FCB6B65-E3B3-EC15-013C-95909325D9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FCB6B65-E3B3-EC15-013C-95909325D9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FCB6B65-E3B3-EC15-013C-95909325D9C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A214185-98B8-8F38-FA27-2A2A876D630A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A214185-98B8-8F38-FA27-2A2A876D630A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A214185-98B8-8F38-FA27-2A2A876D630A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A214185-98B8-8F38-FA27-2A2A876D630A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

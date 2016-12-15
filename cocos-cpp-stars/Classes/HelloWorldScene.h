@@ -14,6 +14,14 @@ public:
 
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
+
+    virtual void update(float dt);
+
+    void addStars(int count);
+
+    cocos2d::Node *_starsLayer;
+    cocos2d::Label *_countLabel;
+    cocos2d::Vector<cocos2d::Sprite*> _stars;
 };
 
 #endif // __HELLOWORLD_SCENE_H__
